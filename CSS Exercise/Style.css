@@ -1,0 +1,209 @@
+/* h3{
+    color: red;
+}
+p{
+color: maroon;
+}
+li{
+color: yellow;
+}
+span{
+color: green;
+}
+div{
+color: blue;
+} */
+/* ID 1 tane olması gerekir h3{
+   color: red; 
+}
+h3#title{
+    color: green;
+} */
+
+/*Class 1'den fazla olabilir.*/
+/* .color-blue{
+
+    color: red;
+}
+.text-bold{
+    font-weight: bold;
+}
+p.color-blue.text-bold{
+    color: blue;
+}
+p.color-blue.text-bold#paragraf2{
+    color: blue;
+}
+#paragraf2{
+    color: purple;
+} */
+
+/*Evrensel seçici*/
+/* *{
+    color: pink;
+}
+div *{
+    color: black;
+} */
+
+/*Grup Seçici*/
+/* h3, p, div, .paragraf, #test{
+    color: blue;
+} */
+
+/*Torun Seçici*/
+/* div b{
+    color: red;
+}
+.box b{
+    color: blue;
+}
+.box .bold{
+    color: green;
+} */
+
+/*Çocuk Seçici*/
+/* p >b{
+    color: blue;
+}
+p >em{
+    color: red;
+} */
+
+/*Bitişik kardeşler(A+B) seçici*/
+/* h3+p{
+    color: red;
+}
+div+p{
+    color: green;
+}
+div+p span{
+    color: blue;
+} */
+
+/*Genel kardeş seçici(A~B)*/
+/* h3 ~ P{
+    color: red;
+} */
+
+/*[Nitelik] seçici*/
+/* abbr[title]{
+    color: green;
+}
+img[alt]{
+    background-color: green;
+}
+img[height]{
+    background-color: blue;
+} */
+
+/*[nitelik="deger"] seçici*/
+/* a[target="_blank"]{
+    color: green;
+}
+
+img[alt=""]{
+
+    background-color: blue;
+} */
+
+/*[nitelik~="değer"] seçici*/
+/* img[alt~="maskot"]{
+    background-color: green;
+} */
+
+/*[nitelik|="değer"] seçici (Box ile baslayan)*/
+/* div[class|=box]{
+    background-color: brown;
+} */
+
+/*[nitelik^="değer"] seçici (Box ile baslayan kelime olmasına gerek yok)*/
+/* div[class^=box]{
+    background-color: brown;
+} */
+
+/*[nitelik$="değer"] seçici (Box ile biten)*/
+/* div[class$="box"]{
+    background-color: brown;
+    } */
+
+/*[nitelik*="değer"] seçici (Box herhangi bir yerde geçen)*/
+/* div[class*="box"] {
+    background-color: brown;
+} */
+
+/*Seçicilerde büyük küçük harf duyarlılığı için i*/
+/* div[class*="bOX" i] {
+    background-color: brown;
+}  */
+
+/* ::after sözde öğresi*/
+/* .box::after{
+    content: 'Sonraki yazi';
+    color: red;
+}
+
+.box::before{
+    content: 'Önceki yazi';
+    color: green;
+}
+.box::after{
+    content: attr(title);
+    color: red;
+}
+.box::after{
+    content: attr(data-sonrasi);
+    color: red;
+}
+.box::before{
+    content: attr(data-oncesi);
+    color: green;
+}
+a[target="_blank"]::after{
+    content: '(' attr(href) ')';
+
+} */
+
+/* ::first-letter Sözde öğesi */
+/* p::first-letter{
+    color: red;
+    font-size: 60px;
+} */
+
+/* ::first-line sözde öğesi */
+/* p::first-line{
+    background-color: yellow;
+} */
+/*imleçle seçtiğim kısmın rengi*/
+/* p::selection{ 
+    background-color: yellow;
+} */
+
+/*::placeholder*/
+/* input{
+    color: red;
+}
+
+input::placeholder{
+    color: red;
+}
+
+textarea::placeholder{
+    color: blue;
+    font-size: 20px;
+} */
+
+/*:first-child sözde sınıfı*/
+/* .list li:first-child{
+    background-color: yellow;
+}
+
+div ul:first-child{
+    background-color: red;
+}
+
+div:first-child{
+    background-color: green;
+} */
+
+
