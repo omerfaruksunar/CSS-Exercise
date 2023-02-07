@@ -204,6 +204,156 @@ div ul:first-child{
 
 div:first-child{
     background-color: green;
+}  */
+
+
+/* Last Child */
+/* ul li:last-child{
+    background-color: yellow;
+}
+
+ul:last-child{
+    background-color: red;
+}
+
+p:last-child{
+    background-color: blue;
 } */
+
+/* div:first-of-type{
+    background-color: yellow;
+} */
+
+/* div:last-of-type{
+    background-color: yellow;
+}
+p:last-of-type{
+    background-color: red;
+} */
+
+/* ul li:nth-child(3){
+    background-color: red;
+}
+ul li:nth-child(odd){
+    background-color: blue;
+}
+ul li:nth-child(even){
+    background-color:yellow;
+}
+ul li:nth-child(3n){
+    background-color: coral;
+}
+ul li:nth-child(3n+2){
+    background-color: black;
+}
+ul li:nth-child(n+4){
+    background-color: burlywood;
+}
+ul li:nth-child(-n+8){
+    background-color: lime;
+}
+ul li:nth-child(n+4):nth-child(-n+8):nth-child(even){
+    background-color: hotpink;
+} */
+
+/* div:nth-of-type(3){
+    background-color: lightblue;
+} */
+
+/* ul li:nth-last-child(-n+5){
+    background-color: yellow;
+} */
+
+/* div:nth-last-of-type(1){
+    background-color: yellow;
+} */
+
+/* ul li:hover{
+    background-color: lime;
+}
+a:hover{
+    background-color: orange;
+}
+div:hover{
+    background-color: peru;
+}
+div span:hover{
+    background-color: plum;
+}
+button:hover+ul{
+    display: none;
+}
+p::selection{
+    background-color: lime;
+}
+p:hover::selection{
+    background-color: rebeccapurple;
+}
+.url::after{
+    content:' (' attr(href) ') '
+}
+.url:hover::after{
+    display: none;
+} */
+
+/* input[type="radio"]:checked+span{
+    color: red;
+}
+.button::before{
+    content:attr(data-hide);
+    background-color: lime;
+}
+.checkbox:checked+.button::before{
+    content: attr(data-show);
+    background-color: orange;
+}
+.checkbox:checked+.button +.box{
+    display: none;
+} */
+
+/* :focus{
+    outline: none;
+}
+button:focus {
+    background-color: lime;
+    color: white;
+}
+
+input:focus {
+    color: red;
+    border-color: red;
+}
+
+a:focus {
+    background-color: yellow;
+}
+
+div:focus {
+    background-color: yellow;
+}
+
+li:focus {
+    background-color: teal;
+}
+ul:focus-within{
+    background-color: yellow;
+} */
+
+/* li:only-child{
+    background-color: yellow;
+}
+div:only-child{
+    background-color: lime;
+} */
+
+/* .box div:only-of-type{
+    background-color: lime;
+} */
+
+/* abbr:not([title]):not(.test):not(#test){
+    background-color: yellow;
+} */
+
+
 
 
